@@ -18,11 +18,11 @@ star_skins = {
 
 firestar493_tag = "GJOYQJR8"
 
-bot_prefixes = ('sp ', 'Sp ', 'SP ', 'sP ')
+bot_prefixes = ("sp ", "Sp ", "SP ", "sP ")
 bot = commands.Bot(
     bot_prefixes,
     case_insensitive=True,
-    activity=discord.Game(name='sp help'))
+    activity=discord.Game(name="sp help | Firestar493#6963"))
 
 def calc_rank_star_points(player):
     total = 0
